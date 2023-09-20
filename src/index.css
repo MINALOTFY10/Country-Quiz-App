@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-image: url(https://github.com/RonyPadilla/country-quiz/blob/main/src/Img/background.png?raw=true);
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0px;
+  padding: 0px;
+  background-repeat: no-repeat;
+}
+
+.heading {
+  color: white;
+}
+
+@media (max-width: 417px) {
+  .heading {
+    font-size: 1.4rem;
+  }
+}

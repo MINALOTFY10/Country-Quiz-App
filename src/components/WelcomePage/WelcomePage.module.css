@@ -1,0 +1,120 @@
+.welcome-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.card-heading {
+  position: absolute;
+  left: 5px;
+  top: -80px;
+  color: white;
+  font-size: 2rem;
+}
+
+.Quiz-Logo {
+  position: absolute;
+  right: 0;
+  top: -40px;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-control {
+  margin-bottom: 1.5rem;
+}
+
+.form-control label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.form-control input {
+  display: block;
+  width: 100%;
+  border: 1px solid #ccc;
+  font: inherit;
+  line-height: 1.5rem;
+  padding: 0.5rem 0.6rem;
+  border-radius: 5px;
+}
+
+.form-control input:focus {
+  outline: none;
+  background: #fad0ec;
+  border-color: #8b005d;
+}
+
+.form-control.invalid input {
+  border-color: red;
+  background: #ffd7d7;
+}
+
+.form-control.invalid label {
+  color: red;
+}
+
+@media (max-width: 445px) {
+  .Logo {
+    width: 250px;
+  }
+  .card-heading {
+    top: -50px;
+    font-size: 1.3rem;
+  }
+  .Quiz-Logo {
+    top: -40px;
+    width: 100px;
+  }
+}
+
+/* small mobile*/
+@media (min-width: 100px) {
+  .container {
+    width: 290px;
+  }
+}
+
+/* mobile*/
+@media (min-width: 445px) {
+  .container {
+    width: 400px;
+  }
+}
+
+/* small */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+/* medium */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+/* large */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+

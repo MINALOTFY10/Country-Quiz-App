@@ -1,0 +1,74 @@
+.result-img {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.result-card {
+    padding: 3rem 5rem;
+    margin: auto auto;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.result-card h1 {
+    padding: 0;
+    margin: 0;
+    margin-top: 40px;
+    text-align: center;
+    color: #1d355d;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    margin-bottom: 20px;
+
+}
+
+.result-card div {
+    padding: 0;
+    text-align: center;
+}
+
+.result-statement {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 1.1rem;
+    color: #1d355d;
+}
+
+.total-score {
+    padding: 0px;
+    margin: 0 10px 0 10px;
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #6fcf97;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle; 
+}
+
+.try-again-button {
+    margin-top: 40px;
+}
+
+@media (max-width: 445px) {
+    .result-img {
+        width: 150px;
+    }
+    .result-card {
+        padding: 3rem 1.5rem;
+    }
+    .total-score {
+        padding: 0px;
+        margin: 0 5px 0 10px;
+        font-size: 2.5rem;
+    }
+}
