@@ -4,19 +4,20 @@
 ![Redux](https://img.shields.io/badge/Redux-4.1.0-green)
 
 Welcome to the Country Quiz App, a fun and educational web application that allows you to test your knowledge of countries, capitals, and continents through engaging quizzes.
+[Visit the Live Website](https://country-quiz-euf3.vercel.app/)
 
 ## Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
 - [How To Use](#how-to-use)
-- [Live Website](#live-website)
-
 
 
 ## Introduction
 The Country Quiz App is built using React and Redux, making it a responsive and interactive quiz platform. Whether you're a geography enthusiast, a student, or just looking for a fun trivia game, this app has something for everyone.
 
-<img src="./AppScreenshot.png" alt="Alt Text" height="400" margin="0 auto">
+<div align="center">
+  <img src="./AppScreenshot.png" alt="Alt Text" height="400">
+</div>
 
 ## Features
 
