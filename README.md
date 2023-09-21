@@ -1,4 +1,4 @@
-# Country Quiz
+# Country Quiz App
 
 ![React](https://img.shields.io/badge/React-18.0.0-blue)
 ![Redux](https://img.shields.io/badge/Redux-4.1.0-green)
