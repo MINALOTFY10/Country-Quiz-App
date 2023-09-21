@@ -66,11 +66,7 @@ $ npm install
 $ npm start
 ```
 **Important:** If you're using the code for a module that requires API keys or a backend (e.g. the module about sending Http requests), you'll have to use **your backend URLs** or API keys. Mine won't work (I disabled my projects).
-# 1. Start the development server:
-$ npm install
 
 ## Live Website
 You can access the live version of this app at [Live Website](https://country-quiz-euf3.vercel.app/).
 
-#2. Open your web browser and go to http://localhost:3000 to use the application.
-```
