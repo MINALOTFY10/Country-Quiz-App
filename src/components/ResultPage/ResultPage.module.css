@@ -72,3 +72,16 @@
         font-size: 2.5rem;
     }
 }
+
+.finished-statement {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #34b406;
+}

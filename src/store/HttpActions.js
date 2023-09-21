@@ -25,13 +25,18 @@ export const fetchQuizData = () => {
       const myCountries = [];
 
       for (const countryObj of countriesData) {
-        if (countryObj.hasOwnProperty("capital") && countryObj["independent"]) {
+       
+        if (
+          countryObj.hasOwnProperty("capital") &&
+          countryObj["population"] > 33000000
+        ) {
           myCountries.push({
             itemID: gtCountryID(countryObj.cca2, countryObj.ccn3),
             name: countryObj.name.common,
             capital: countryObj.capital[0],
             region: countryObj.region,
             flagImg: countryObj.flags.png,
+            continent: countryObj.continents[0],
           });
         }
       }
@@ -84,9 +89,7 @@ export const sendHighScoreData = (highScore) => {
         "https://country-quiz-app-7af0b-default-rtdb.firebaseio.com/highScore.json",
         {
           method: "PUT",
-          body: JSON.stringify(
-            highScore
-          ),
+          body: JSON.stringify(highScore),
         }
       );
 

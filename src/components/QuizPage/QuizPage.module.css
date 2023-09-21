@@ -115,7 +115,7 @@
 /* small mobile*/
 @media (min-width: 100px) {
   .container {
-    width: 290px;
+    width: 320px;
   }
 
 }

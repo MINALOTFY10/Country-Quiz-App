@@ -12,7 +12,7 @@ const CapitalQuestion = () => {
       <h1 className={classes["card-heading"]}>Country Quiz</h1>
       <img src={QuizLogo} className={classes["Quiz-Logo"]} />
       <h2 className={classes["question-heading"]}>
-        {question.capital} is the capital of:
+      🌎 What's the capital of {question.countryName}:
       </h2>
       <div className={classes["choices"]}>
         <ChoicesButtons />

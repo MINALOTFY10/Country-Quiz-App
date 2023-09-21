@@ -5,28 +5,16 @@ import { useSelector } from "react-redux";
 import ChoicesButtons from "./ChoicesButtons";
 import LoadingScreen from "../UI/LoadingScreen";
 
-const FlagQuestion = (props) => {
-  const [isFlagLoaded, setIsFlagLoaded] = useState(false); // State to track flag image loading
+const ContinentQuestion = (props) => {
   const question = useSelector((state) => state.quiz.currentQuestion);
 
-  const handleFlagLoad = () => {
-    setIsFlagLoaded(true);
-  };
 
   return (
     <section className={`${classes.card} ${classes.container}`}>
       <h1 className={classes["card-heading"]}>Country Quiz</h1>
       <img src={QuizLogo} className={classes["Quiz-Logo"]} />
-      {!isFlagLoaded ? <LoadingScreen /> : ""}
-      <img
-        src={question.flag}
-        alt={`Flag of ${question.name}`}
-        className={classes["country-flag"]}
-        width={130}
-        onLoad={handleFlagLoad}
-      />
       <h2 className={classes["question-heading"]}>
-        Which country does this flag belong to?
+      🌎 In which continent can you find the country of {question.countryName}?
       </h2>
       <div className={classes["choices"]}>
         <ChoicesButtons />
@@ -35,4 +23,4 @@ const FlagQuestion = (props) => {
   );
 };
 
-export default FlagQuestion;
+export default ContinentQuestion;

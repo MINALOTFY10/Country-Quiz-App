@@ -10,12 +10,18 @@ const AnswerButton = (props) => {
   const name = useSelector((state) => state.highscore.userName);
   const highScores = useSelector((state) => state.highscore.highScores);
   const score = useSelector((state) => state.quiz.totalScore);
+  const countries = useSelector((state) => state.quiz.countries);
 
   const onClickHandler = (index) => {
     if (index == -1) {
       if (isTheAnswerRight) {
         dispatch(quizActions.toggleTheQuestions());
-        dispatch(quizActions.createQuestion());
+        if (countries.length <= 4) {
+          dispatch(quizActions.endTheQuiz());
+          dispatch(quizActions.endTheQuestions());
+        } else {
+          dispatch(quizActions.createQuestion());
+        }
       } else {
         dispatch(quizActions.endTheQuiz());
         const newScore = {
@@ -32,8 +38,6 @@ const AnswerButton = (props) => {
         if (myHighScores.length > 5) {
           myHighScores.pop();
         }
-
-        console.log(myHighScores);
 
         dispatch(sendHighScoreData(myHighScores));
       }
