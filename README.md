@@ -28,17 +28,17 @@ Choose from three different quiz question types to test your knowledge:
 - **Continent Quiz**: Learn about countries by their continents.
 
 **2. Dynamic Quiz Generation**
-Enjoy an endless supply of quiz questions with our dynamic generation system:
+Enjoy an endless supply of quiz questions with my dynamic generation system:
 - Questions are randomly generated, providing a unique quiz each time.
 - Experience a variety of questions for diverse learning opportunities.
 
 **3. Score Tracking and High Score**
 Keep track of your progress and aim for the high score:
 - Your current score is displayed during the quiz.
-- View your high score to challenge yourself to do better.
+- View all high scores to challenge yourself to do better.
 
 **4. User-Friendly Interface**
-We've designed the app with user convenience in mind:
+The app is designed with user convenience in mind:
 - Intuitive and easy-to-use interface for a seamless quiz experience.
 - Clear visuals and feedback for each question.
 
@@ -64,7 +64,4 @@ $ npm install
 $ npm start
 ```
 **Important:** If you're using the code for a module that requires API keys or a backend (e.g. the module about sending Http requests), you'll have to use **your backend URLs** or API keys. Mine won't work (I disabled my projects).
-
-## Live Website
-You can access the live version of this app at [Live Website](https://country-quiz-euf3.vercel.app/).
 
