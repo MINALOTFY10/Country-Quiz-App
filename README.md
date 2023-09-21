@@ -7,18 +7,15 @@ Welcome to the Country Quiz App, a fun and educational web application that allo
 
 ## Table of Contents
 - [Introduction](#introduction)
-- [Live Website](#live-website)
 - [Features](#features)
 - [How To Use](#how-to-use)
+- [Live Website](#live-website)
 
 
 
 ## Introduction
 The Country Quiz App is built using React and Redux, making it a responsive and interactive quiz platform. Whether you're a geography enthusiast, a student, or just looking for a fun trivia game, this app has something for everyone.
 ![App Screenshot](screenshot.png)
-
-## Live Website
-You can access the live version of this app at [Live Website](https://country-quiz-euf3.vercel.app/).
 
 ## Features
 ### Multiple Quiz Question Types
@@ -71,6 +68,9 @@ $ npm start
 **Important:** If you're using the code for a module that requires API keys or a backend (e.g. the module about sending Http requests), you'll have to use **your backend URLs** or API keys. Mine won't work (I disabled my projects).
 # 1. Start the development server:
 $ npm install
+
+## Live Website
+You can access the live version of this app at [Live Website](https://country-quiz-euf3.vercel.app/).
 
 #2. Open your web browser and go to http://localhost:3000 to use the application.
 ```
