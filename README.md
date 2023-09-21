@@ -15,7 +15,7 @@ Welcome to the Country Quiz App, a fun and educational web application that allo
 
 ## Introduction
 The Country Quiz App is built using React and Redux, making it a responsive and interactive quiz platform. Whether you're a geography enthusiast, a student, or just looking for a fun trivia game, this app has something for everyone.
-![App Screenshot](https://drive.google.com/file/d/1h74JkXqL_dQ622qPe0_MrcI84SNIx_CC/view?usp=sharing)
+![App Screenshot](./AppScreenshot.png)
 
 ## Features
 
