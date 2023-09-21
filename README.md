@@ -19,28 +19,28 @@ The Country Quiz App is built using React and Redux, making it a responsive and 
 
 ## Features
 
-1. Multiple Quiz Question Types
+**1. Multiple Quiz Question Types**
 Choose from three different quiz question types to test your knowledge:
 - **Flag Quiz**: Identify countries by their flags.
 - **Capital Quiz**: Match countries with their capitals.
 - **Continent Quiz**: Learn about countries by their continents.
 
-2. Dynamic Quiz Generation
+**2. Dynamic Quiz Generation**
 Enjoy an endless supply of quiz questions with our dynamic generation system:
 - Questions are randomly generated, providing a unique quiz each time.
 - Experience a variety of questions for diverse learning opportunities.
 
-3. Score Tracking and High Score
+**3. Score Tracking and High Score**
 Keep track of your progress and aim for the high score:
 - Your current score is displayed during the quiz.
 - View your high score to challenge yourself to do better.
 
-4. User-Friendly Interface
+**4. User-Friendly Interface**
 We've designed the app with user convenience in mind:
 - Intuitive and easy-to-use interface for a seamless quiz experience.
 - Clear visuals and feedback for each question.
 
-5. Responsive Design
+**5. Responsive Design**
 Access the Country Quiz App on any device:
 - Whether you're on a desktop, tablet, or smartphone, the app adapts to your screen size.
 - Enjoy a consistent user experience across platforms.
