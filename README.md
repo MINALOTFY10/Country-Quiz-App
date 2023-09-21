@@ -9,6 +9,7 @@ Welcome to the Country Quiz App, a fun and educational web application that allo
 ## Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
+- [Technologies Used](#technologies-used)
 - [How To Use](#how-to-use)
 
 
@@ -47,6 +48,14 @@ Access the Country Quiz App on any device:
 - Whether you're on a desktop, tablet, or smartphone, the app adapts to your screen size.
 - Enjoy a consistent user experience across platforms.
 
+## Technologies Used
+- **React**: A JavaScript library for building user interfaces.
+- **Redux**: A state management library for managing the application's state.
+- **Redux Toolkit**: The official package from Redux for simplifying Redux setup.
+- **JavaScript**: The primary programming language used for the application's logic.
+- **HTML/CSS**: For structuring the application and styling the user interface.
+- **Firebase Realtime Database**: A cloud-hosted NoSQL database used for storing quiz data and high scores.
+- **npm**: The Node.js package manager for installing and managing project dependencies.
 
 ## How To use
 <!-- For example: -->
