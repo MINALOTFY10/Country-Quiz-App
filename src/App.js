@@ -22,7 +22,6 @@ function App() {
     <div>
       {!isStarted ? (
         <>
-          <h1 className="heading">Welcome to country quiz</h1>
           <WelcomePage onClickStartHandler={startQuiz} />
         </>
       ) : (

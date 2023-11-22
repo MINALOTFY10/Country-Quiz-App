@@ -36,7 +36,7 @@ const WelcomePage = (props) => {
       <section
         className={`${classes.card} ${welcomeClasses["container"]} ${welcomeClasses["welcome-card"]}`}
       >
-        <h1 className={welcomeClasses["card-heading"]}>Country Quiz</h1>
+        <h1 className={welcomeClasses["card-heading"]}>GlobeQuiz Hub</h1>
         <img src={QuizLogo} className={welcomeClasses["Quiz-Logo"]} />
         <img
           src={myLogo}
