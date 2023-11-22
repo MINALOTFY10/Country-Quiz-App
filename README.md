@@ -1,9 +1,9 @@
-# Country Quiz App
+# GlobeQuiz Hub Website
 
 ![React](https://img.shields.io/badge/React-18.0.0-blue)
 ![Redux](https://img.shields.io/badge/Redux-4.1.0-green)
 
-Welcome to the Country Quiz App, a fun and educational web application that allows you to test your knowledge of countries, capitals, and continents through engaging quizzes.
+Welcome to the GlobeQuiz Hub, a fun and educational web application that allows you to test your knowledge of countries, capitals, and continents through engaging quizzes.
 [Visit the Live Website](https://country-quiz-euf3.vercel.app/)
 
 ## Table of Contents
@@ -14,7 +14,7 @@ Welcome to the Country Quiz App, a fun and educational web application that allo
 
 
 ## Introduction
-The Country Quiz App is built using React and Redux, making it a responsive and interactive quiz platform. Whether you're a geography enthusiast, a student, or just looking for a fun trivia game, this app has something for everyone.
+GlobeQuiz Hub is built using React and Redux, making it a responsive and interactive quiz platform. Whether you're a geography enthusiast, a student, or just looking for a fun trivia game, this app has something for everyone.
 
 <div align="center">
   <img src="./AppScreenshot.png" alt="Alt Text" height="400">
