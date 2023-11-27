@@ -17,7 +17,7 @@ Welcome to the GlobeQuiz Hub, a fun and educational web application that allows 
 GlobeQuiz Hub is built using React and Redux, making it a responsive and interactive quiz platform. Whether you're a geography enthusiast, a student, or just looking for a fun trivia game, this app has something for everyone.
 
 <div align="center">
-  <img src="./AppScreenshot.png" alt="Alt Text" height="400">
+  <img src="./App Screenshots/first.png" alt="Alt Text" height="400">
 </div>
 
 ## Features
